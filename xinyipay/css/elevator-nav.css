@@ -1,0 +1,84 @@
+
+.elevator-nav {
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  z-index: 999;
+}
+.elevator-nav li {
+  background-color: #e60012;
+  border-radius: 4px 4px 4px 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+.elevator-nav li:nth-child(1) {
+  border-radius: 4px 4px 4px 0px;
+}
+.elevator-nav li:nth-child(3) {
+  border-radius: 4px 0px 4px 0px;
+}
+.elevator-nav li:nth-child(5) {
+  border-radius: 4px 0px 4px 0px;
+}
+.elevator-nav li:nth-child(7) {
+  border-radius: 4px 0px 4px 4px;
+}
+.elevator-nav li a {
+  width: 55px;
+  height: 55px;
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+}
+.elevator-nav li a:hover {
+  color: #ffffff!important;
+}
+.elevator-nav li a img {
+  display: inline-block;
+}
+.elevator-nav li a span {
+  display: block;
+  font-size: 11px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 16px;
+}
+.elevator-nav .quadrilateral {
+  width: 55px;
+  height: 7px;
+  background: url(../image/quadrilateral.png) no-repeat;
+}
+.elevator-nav .text a {
+  padding: 8px 4px;
+}
+.elevator-nav .icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.elevator-nav .back {
+  padding: 14px;
+}
+.elevator-nav .hovereq {
+  position: absolute;
+  top: 21px;
+  left: -36px;
+  display: none;
+}
+.elevator-nav .hovereq span {
+  background: url(../image/qrcode.png);
+  width: 109px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: -20px;
+  left: -83px;
+}
+.elevator-nav .elevatornav-active:hover .hovereq {
+  display: block;
+}
+@media screen and (max-width: 1390px) {
+  .elevator-nav {
+    margin-right: -48%;
+  }
+}

@@ -1,0 +1,381 @@
+*{margin: 0;padding: 0}
+a{ text-decoration: none; }
+ul,li{
+    list-style: none;
+}
+.clear{ clear: both;}
+html , body{
+    width: 100%;
+    height:100%;
+    background: #fff;
+}
+.wrap{
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.home-main{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+
+.info-wrap{
+    width: 100%;
+    background: #fff;
+    padding-bottom: 65px;
+}
+
+.info-title{
+    color:#333333;
+    font-size: 30px;
+    text-align: center;
+    padding: 70px 0 40px 0; 
+}
+
+.info-text{
+    font-size: 16px;
+    text-align: center;
+    color:#666;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.face-info{
+    width: 100%;
+    height:320px;
+    background: #2c3846;
+    background: url("https://qw.uipay.cn/moban/images/home/home_face.png") no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.face-info .face-center{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.face-info .face-center .title{
+    color:#fff;
+    font-size: 24px;
+    padding: 50px 0 50px 20px;
+}
+
+.face-info .face-center .content{
+    width: 558px;
+    color:#fff;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 50px 0 50px 20px;
+}
+
+.product-info{
+    width: 100%;
+    background: #fff;
+    min-height: 440px;
+}
+.product-info .title{
+    width: 100%;
+    text-align: center;
+    padding: 35px 0 25px 0;
+    color:#666;
+    font-size: 24px;
+}
+
+.product-list{
+    width: 100%;
+}
+
+.product-list ul{
+    margin: 0 auto;
+    width: 1200px;
+}
+.product-list ul li{
+    width: 380px;
+    height:270px;
+    float: left;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0px 0px 7px #f1f1f1;
+    margin:0 10px;
+}
+.product-list ul li img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.product-list ul li .text{
+    text-align: center;
+    width: 100%;
+    color:#333;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.list-title{
+   position: relative;
+   z-index: 2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.list-title .list-text{
+    color:#333;
+    font-size: 18px;
+    padding: 0 12px;
+    position: relative;
+    z-index: 3;
+    background: #fff;
+    height:80px;
+    line-height: 80px;
+    display: inline-block;
+    
+}
+
+.list-title span{
+    position: absolute;
+    z-index: 2;
+    background: #cccccc;
+    width: 260px;
+    height:1px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -130px;
+}
+
+.list-content{
+    color:#666;
+    font-size: 14px;
+    padding: 0 30px;
+    
+}
+
+.flow-info{
+    width: 100%;
+    height:800px;
+    background: #f8f8f8;
+}
+
+.flow-info .title{
+    width: 100%;
+    text-align: center;
+    padding: 35px 0 25px 0;
+    color:#666;
+    font-size: 24px;
+}
+
+.flow-info .pic{
+    width:1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.flow-info .pic img{
+    width: 100%;
+
+}
+
+.case-info {
+    width: 100%;
+    height:915px;
+    background: url("https://qw.uipay.cn/moban/images/home/home_case_bg.jpg") no-repeat center center;
+    background-size:cover;
+}
+
+.case-info .title{
+    width: 100%;
+    text-align: center;
+    padding: 35px 0 25px 0;
+    color:#fff;
+    font-size: 24px;
+}
+
+.case-info .case-list{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.case-info .case-list ul{
+    width: 100%;
+    overflow: hidden;
+}
+
+.case-info .case-list ul li{
+    width: 380px;
+    height:300px;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+
+.case-info .case-list ul li img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.case-info .case-list ul li .text{
+    position: absolute;
+    z-index: 3;
+    top:95px;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+    font-size: 30px;
+}
+
+.case-info .case-list ul li .desc {
+    color:#666;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 28px 0 28px;
+}
+
+.case-info-desc{
+    width: 615px;
+    margin: 0 auto;
+    font-size: 18px;
+    color:#999999;
+    line-height: 40px;
+    text-align: center;
+}
+
+.pay-info{
+    width: 100%;
+    height:690px;
+    background: #f1f2f5;
+}
+
+.pay-info .title{
+    width: 100%;
+    text-align: center;
+    padding: 35px 0 25px 0;
+    color:#666;
+    font-size: 24px;
+}
+
+.pay-info .pay-list{
+    width:1200px;
+    margin: 0 auto;
+}
+
+.pay-info .pay-list ul{
+    width: 100%;
+    overflow: hidden;
+}
+
+.pay-info .pay-list ul li{
+    width: 280px;
+    height:430px;
+    float: left;
+    background: #fff;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.pay-info .pay-list ul li .text{
+    width: 100%;
+    text-align: center;
+    color:#666666;
+    font-size: 24px;
+    line-height: 60px;
+}
+
+.pay-info .pay-list ul li .desc{
+    padding:  0 16px;
+    color:#666;
+    font-size: 16px;
+}
+
+.video-info{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.video-info .title{
+    width: 100%;
+    text-align: center;
+    padding: 35px 0 25px 0;
+    color:#666;
+    font-size: 24px;
+}
+
+.video-info .video-wrap{
+    width: 1010px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px #e4e4e4;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.video-info .video-wrap video{
+    width: 100%;
+}
+
+.paymsg-info{
+    width: 100%;
+    height:528px;
+    background: url("https://qw.uipay.cn/moban/images/home/home_pay.jpg") no-repeat center center;
+    background-size:cover;
+    text-align: center;
+}
+
+.paymsg-info img{
+    width: 140px;
+    height:140px;
+    margin: 65px 0 30px 0;
+}
+
+.paymsg-info .desc{
+    text-align: center;
+    width: 100%;
+    color:#fff;
+    font-size: 30px;
+}
+
+.appointment-info {
+    background: #4726de;
+    width: 100%;
+    height:270px;
+    text-align: center;
+}
+
+.appointment-info .title{
+    color:#fff;
+    padding: 45px 0 30px 0;
+    font-size: 30px;
+}
+
+.appointment-info .btn{
+    color:#4726de;
+    font-size: 16px;
+    width: 180px;
+    height:40px;
+    line-height: 40px;
+    background: #fff;
+    margin: 0 auto;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.appointment-info  .desc{
+    font-size: 16px;
+    color:#fff;
+    margin-top: 30px;
+}
+
+/** 新增 ***/
+@media screen and (max-width:1200px) {
+.wrap{ width:100%; overflow:hidden; }
+.wrap:after{content:"\200B";display:block; height:0px; overflow:hidden;clear:both;}
+}

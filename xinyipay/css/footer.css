@@ -1,0 +1,91 @@
+ /** footer  begin  ***/
+
+ .footer{
+     position: relative;
+     z-index: 2;
+    background: #141621;
+    height:400px;
+    padding: 50px 0 0 0;
+    box-sizing: border-box;
+}
+.footer-center{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.f-left{
+    float:left;
+    width: 360px;
+    padding: 0 0 0 40px;
+    box-sizing: border-box;
+}
+.f-left img{
+    float:left;
+    width: 63px;
+    height:auto; margin-top:15px;
+}
+.phone-text{
+    float:left;
+    color: #fff;
+    font-size: 24px;
+    margin: 26px 0 10px 0;
+    padding-left: 20px;
+}
+.phone-number{
+    float:left;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 0px;
+}
+.f-center{
+    width: 620px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    color:#fff;
+}
+.f-center .item{
+    flex: 1;
+    text-align: center;
+}
+.item-name{
+    font-size: 18px;
+    padding: 20px 0 20px 0;
+}
+.f-center .item li{
+    color:#656489;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.f-right{
+    float:left;
+    width: 120px;
+    overflow: hidden;
+    padding: 20px 0 0 0;
+}
+.f-right img{
+    width: 100%;
+    float: left;
+}
+.f-right span{
+    color:#666;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copyright{
+    position: absolute;
+    width: 634px;
+    z-index: 3;
+    left:50%;
+    bottom: 10px;
+    line-height: 35px;
+    color:#555;
+    font-size: 14px;
+    text-align: center;
+    margin-left: -327px;
+}
+/** footer  end  ***/

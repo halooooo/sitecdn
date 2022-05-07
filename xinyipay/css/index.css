@@ -1,0 +1,774 @@
+
+.layout {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+body {
+  background-color: #f6f6f6;
+}
+body a:hover {
+  color: #e60012 !important;
+}
+.content {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.slider_item {
+  width: 663px;
+  height: 338px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+}
+.slider_item .switch-tips {
+  position: absolute;
+  bottom: 27px;
+  left: 50%;
+  margin-left: -42px;
+  z-index: 1;
+}
+.slider_item .switch-tips li {
+  cursor: pointer;
+  text-indent: -9999px;
+  float: left;
+  width: 9px;
+  height: 9px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 12px;
+}
+.slider_item .switch-tips .on {
+  background-color: #ffffff;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.switch-tips ol li:hover {
+  background-color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.switch-tips .last-switch-tips {
+  margin-right: 0;
+}
+.slider_item .img-group ul li {
+  float: left;
+  position: relative;
+  width: 663px;
+  height: 338px;
+}
+.img-group img {
+  width: 663px;
+  height: 338px;
+}
+.text-list {
+  width: 100%;
+  border-top: none;
+  overflow: hidden;
+}
+.text-list ul {
+  padding-top: 12px;
+}
+.text-list ul li {
+  line-height: 24px;
+  overflow: hidden;
+  margin-top: 11px;
+}
+.text-list ul li:hover span {
+  color: #e60012;
+}
+.text-list ul li a {
+  font-size: 17px;
+  font-weight: 400;
+  color: #333333;
+  width: 85%;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+.text-list ul li a i {
+  display: inline-block;
+  font-style: normal;
+  line-height: 24px;
+  margin: 0 10px 0 3px;
+}
+.text-list ul li span {
+  font-size: 17px;
+  font-weight: 400;
+  color: #999999;
+  float: right;
+}
+.fill .head {
+  height: 28px;
+  line-height: 28px;
+  position: relative;
+  padding: 0 12px;
+}
+.fill .head .head-title {
+  float: left;
+  font-size: 20px;
+  font-weight: 500;
+  color: #e60012;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-right: 29px;
+}
+.fill .head a {
+  float: right;
+  font-size: 14px;
+  line-height: 28px;
+  color: #999999;
+}
+.fill .head:after {
+  content: "";
+  width: 4px;
+  height: 30px;
+  background-color: #e60012;
+  display: block;
+  position: absolute;
+  left: 0;
+}
+.fill .content-head p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e60012;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+.fill .content-head p i {
+  display: inline-block;
+  font-weight: bold;
+  color: #e60012;
+  margin-right: 10px;
+  line-height: 28px;
+  width: 16px;
+  height: 17px;
+  background: url(../image/slash.png) no-repeat;
+  vertical-align: -2px;
+}
+.live-panel .live-panelfl,
+.live-panel .live-panelrg {
+  float: left;
+  width: 590px;
+  padding: 35px 29px 30px 40px;
+  background-color: #ffffff;
+}
+.live-panel .live-panelfl .live-image,
+.live-panel .live-panelrg .live-image {
+  float: left;
+  width: 86px;
+  height: 86px;
+  margin-right: 20px;
+}
+.live-panel .live-panelfl .live-image img,
+.live-panel .live-panelrg .live-image img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.live-panel .live-panelfl .live-page,
+.live-panel .live-panelrg .live-page {
+  width: 391px;
+  float: left;
+}
+.live-panel .live-panelfl .live-page .live-time,
+.live-panel .live-panelrg .live-page .live-time {
+  font-size: 17px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 24px;
+}
+.live-panel .live-panelfl .live-page .live-time span,
+.live-panel .live-panelrg .live-page .live-time span {
+  display: inline-block;
+  width: 63px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 24px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.live-panel .live-panelfl .live-page .live-time .live-stateing,
+.live-panel .live-panelrg .live-page .live-time .live-stateing {
+  background-color: #e60012;
+}
+.live-panel .live-panelfl .live-page .live-time .live-stateing i,
+.live-panel .live-panelrg .live-page .live-time .live-stateing i {
+  font-style: normal;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin: 0 4px 2px 0;
+}
+.live-panel .live-panelfl .live-page .live-time .live-stateNotice,
+.live-panel .live-panelrg .live-page .live-time .live-stateNotice {
+  background-color: #4A90E2;
+}
+.live-panel .live-panelfl .live-page .live-time .live-statebake,
+.live-panel .live-panelrg .live-page .live-time .live-statebake {
+  background-color: #BEBEBE;
+}
+.live-panel .live-panelfl .live-title,
+.live-panel .live-panelrg .live-title {
+  margin-top: 10px;
+}
+.live-panel .live-panelfl .live-title a,
+.live-panel .live-panelrg .live-title a {
+  height: 24px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 24px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+.live-panel .live-panelfl .live-name,
+.live-panel .live-panelrg .live-name {
+  margin-top: 13px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+  line-height: 21px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+.live-panel .live-panelfl .live-post,
+.live-panel .live-panelrg .live-post {
+  margin-top: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+  line-height: 21px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+.curriculum-list {
+  overflow: hidden;
+}
+.curriculum-list ul li {
+  width: 286px;
+  height: 264px;
+  float: left;
+  margin-right: 18px;
+  background-color: #ffffff;
+}
+.curriculum-list ul li a {
+  display: block;
+}
+.curriculum-list ul li a:hover .title-page,
+.curriculum-list ul li a:hover .title-name,
+.curriculum-list ul li a:hover .title-details {
+  color: #e60012;
+}
+.curriculum-list ul li .curriculum-images {
+  width: 286px;
+  height: 157px;
+}
+.curriculum-list ul li .curriculum-images img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.curriculum-list ul li .curriculum-title {
+  padding: 15px 16px;
+}
+.curriculum-list ul li .curriculum-title .title-page {
+  font-size: 17px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 24px;
+  max-height: 48px;
+  overflow: hidden;
+}
+.curriculum-list ul li .curriculum-title .title-name {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 21px;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+.curriculum-list ul li .curriculum-title .title-details {
+  margin-top: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+  line-height: 21px;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+.expertTeam {
+  overflow: hidden;
+}
+.expertTeam ul li {
+  float: left;
+  margin-right: 10px;
+  width: 292px;
+  height: 323px;
+  background-color: #ffffff;
+  padding: 34px 21px 0;
+}
+.expertTeam ul li a {
+  display: block;
+}
+.expertTeam ul li a:hover .expertTeam-name,
+.expertTeam ul li a:hover .expertTeam-details {
+  color: #e60012;
+}
+.expertTeam ul li .expertTeam-img {
+  text-align: center;
+}
+.expertTeam ul li .expertTeam-img img {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.expertTeam ul li .expertTeam-name {
+  margin-top: 13px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 25px;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+.expertTeam ul li .expertTeam-details {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 21px;
+  height: 84px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+.expertTeam ul li .studio-btn {
+  text-align: center;
+  margin-top: 17px;
+}
+.expertTeam ul li .studio-btn a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 29px;
+  width: 105px;
+  text-align: center;
+  background-color: #e60012;
+  border-radius: 4px;
+}
+.expertTeam ul li .studio-btn a:hover {
+  color: #ffffff!important;
+}
+.expertTeam ul li .studio-btn a img {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.main {
+  margin-top: 40px;
+}
+.container {
+  overflow: hidden;
+}
+.container-list {
+  margin-top: 30px;
+  overflow: hidden;
+}
+.banner-right {
+  width: 520px;
+  float: right;
+  box-shadow: 0px 0px 10px 0px #eff1f0;
+}
+.banner-right .head {
+  padding-bottom: 9px;
+  border-bottom: 1px solid #f8c5c5;
+  overflow: hidden;
+}
+.banner-right .head ul {
+  float: left;
+}
+.banner-right .head ul li {
+  position: relative;
+  float: left;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 28px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.banner-right .head ul .on {
+  color: #e60012;
+}
+.banner-right .head ul .on:after {
+  content: " ";
+  position: absolute;
+  height: 6px;
+  width: 100%;
+  background: #e60012;
+  bottom: -9px;
+  left: 0;
+  z-index: 1;
+}
+.banner-right .head ul span {
+  float: left;
+  margin: 5px 20px 0;
+  width: 1px;
+  height: 20px;
+  background-color: #D4D4D4;
+  line-height: 28px;
+}
+.banner-right .head a {
+  float: right;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666666;
+  line-height: 28px;
+}
+.banner-right .consulting-head {
+  padding: 20px;
+  background-color: #ffffff;
+}
+.banner-right .text-list {
+  width: 480px;
+  height: 260px;
+}
+.fill .head {
+  margin-bottom: 12px;
+}
+.trainingtopics {
+  padding: 30px 24px 30px 26px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.trainingtopics ul {
+  width: 1171px;
+}
+.trainingtopics ul li {
+  width: 173px;
+  height: 115px;
+  float: left;
+  margin-right: 22px;
+  text-align: center;
+  background-color: #FFF7F6;
+  position: relative;
+}
+.trainingtopics ul li:hover:after {
+  content: "";
+  width: 173px;
+  height: 4px;
+  background-color: #C7301E;
+  border-radius: 4px 4px 0px 0px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+.trainingtopics ul li a {
+  display: block;
+  padding-top: 24px;
+}
+.trainingtopics ul li a img {
+  width: auto;
+  height: auto;
+}
+.trainingtopics ul li a p {
+  margin-top: 7px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #333333;
+  line-height: 28px;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+.projects-list {
+  padding: 24px 0 28px 26px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.projects-list ul {
+  float: left;
+}
+.projects-list ul li {
+  width: 309px;
+  height: 181px;
+  float: left;
+  margin-right: 14px;
+  background-color: #FBFAFA;
+  padding: 38px 58px 0;
+  text-align: center;
+}
+.projects-list ul li .projects-name {
+  height: 56px;
+  overflow: hidden;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+.projects-list ul li .projects-sign {
+  margin-top: 26px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #e60012;
+  line-height: 30px;
+  display: inline-block;
+  padding: 0 18px;
+  border: 1px solid #F8C5C5;
+  border-radius: 4px;
+}
+/*.projects-list ul .item-bkgone {
+  background: url(../images/itembackgroundone.png) no-repeat;
+}
+.projects-list ul .item-bkgtwo {
+  background: url(../images/itembackgroundtwo.png) no-repeat;
+}
+.projects-list ul .item-bkgthree {
+  background: url(../images/itembackgroundthree.png) no-repeat;
+}*/
+.projects-list .projects-more {
+  float: left;
+  margin-left: 41px;
+  margin-top: 73px;
+}
+.projects-list .projects-more a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #e60012;
+  line-height: 35px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 0 10px 0 26px;
+  border: 1px solid #C7301E;
+  border-radius: 4px;
+}
+.live-panel {
+  width: 1220px;
+  overflow: hidden;
+}
+.live-panel .live-panelfl {
+  margin-right: 20px;
+}
+.wrap-three .curriculum-list {
+  height: 264px;
+  overflow: hidden;
+}
+.wrap-three .curriculum-list ul {
+  width: 1218px;
+}
+.container-banner a {
+  display: block;
+  width: 1200px;
+  height: 120px;
+}
+.container-banner a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: all .5s ease;
+}
+.container-banner a img:hover {
+  transform: scale(1.1);
+}
+.wrap-four .expertTeam ul {
+  width: 1210px;
+}
+.achievements-list {
+  background-color: #ffffff;
+  padding: 0 0 24px 27px;
+}
+.achievements-list .text-list ul {
+  width: 1220px;
+}
+.achievements-list .text-list ul li {
+  width: 540px;
+  float: left;
+  margin-right: 70px;
+}
+.achievements-list .text-list ul li a {
+  width: 100%;
+}
+.dataschool {
+  overflow: hidden;
+}
+.dataschool ul {
+  width: 1230px;
+}
+.dataschool ul li {
+  width: 277px;
+  height: 243px;
+  background-color: #ffffff;
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+  padding: 27px 10px 0;
+}
+.dataschool ul li img {
+  display: inline-block;
+  width: 94px;
+  height: 94px;
+  border: none;
+}
+.dataschool ul li .dataschool-number {
+  margin-top: 2px;
+  font-size: 40px;
+  font-family: PingFangSC-Light, PingFang SC;
+  font-weight: 300;
+  color: #FF2525;
+  line-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+.dataschool ul li .dataschool-name {
+  margin-top: 8px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 24px;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+.slideTxtBox2 .head {
+  height: auto;
+  padding: 0;
+}
+.slideTxtBox2 .head .head-panel {
+  overflow: hidden;
+}
+.slideTxtBox2 .head .head-panel p {
+  padding-left: 12px ;
+}
+.slideTxtBox2 .head .head-panel a {
+  padding-right: 12px;
+}
+.slideTxtBox2 .head-Course {
+  margin-top: 12px;
+  background-color: #ffffff;
+  padding: 14px 0 4px 12px;
+}
+.slideTxtBox2 .head-Course ul li {
+  float: left;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #e60012;
+  line-height: 30px;
+  padding: 0 26px;
+  letter-spacing: 1px;
+  border: 1px solid #F8C5C5;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.slideTxtBox2 .head-Course ul .on {
+  color: #ffffff;
+  background-color: #e60012;
+}
+.slideTxtBox2 .curriculum-list {
+  overflow: hidden;
+}
+.slideTxtBox2 .curriculum-list ul {
+  width: 1218px;
+}
+
+/*推荐项目*/
+                
+                	.projects-list ul li{
+                		padding:0;
+                		height: auto;
+                	}
+                	.projects-list ul li img{
+                		width:309px;
+                		height:181px;
+                	}
+                	.projects-list ul li .projects-sign{
+                		margin-top: 12px;
+                		    font-size: 17px;
+						    font-weight: 400;
+						    color: #ffffff;
+						    line-height: 35px;
+						    display: inline-block;
+						   	padding: 0;
+						    border:none;
+						    border-radius: 4px;
+						    width: 200px;
+						    background-color: #E2241D;
+						    height: 35px;
+                	}
+                	.projects-list ul li .projects-sign:hover{
+                		color: #ffffff!important;
+                	}
+                	.projects-list ul li .projects-sign i{
+                		display: inline-block;
+                		width:12px;
+                		height:12px;
+                		background: url(../image/rightarrow.png) no-repeat;
+                		margin-left: 6px;
+                	}
+                	
+/*培训专题增加样式*/
+						.trainingtopics ul li a img{
+							height: 41px;
+						}
+						/*直播课堂增加样式*/
+						.live-panel .live-panelfl{
+							min-height: 184px;
+						}
+						/*学习成果工作案例增加样式*/
+					.achievements-wrap{
+						width: 1220px;	
+					}
+                   	.achievements-box{
+                   		float: left;
+                   		width:593px;
+                   		margin-right: 11px;
+                   	}
+                   	.achievements-box .achievements-list .text-list ul{
+                   		width: 593px;
+                   	}
